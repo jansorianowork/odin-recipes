@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* recipes home page */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+  background-color: antiquewhite;  
+}
+
+.container{
+   padding:0 20%;
+}
+
+h1{
+    text-align: center;
+}
+
+.recipes-list ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.recipes-list ul li{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    padding:20px;
+    margin: 20px;   
+    list-style: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.recipes-list ul li a{
+    text-decoration: none;
+}
+/*  recipes page */
+
+
+.recipe-header h1{
+    text-align: center;
+}
+
+.recipe-image{
+    width: 50%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
